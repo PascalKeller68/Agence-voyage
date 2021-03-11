@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$(".wp-travel-engine-datetime").datepicker({maxDate:0,changeMonth:!0,changeYear:!0,dateFormat:"yy-mm-dd",yearRange:"-100:+0"})});

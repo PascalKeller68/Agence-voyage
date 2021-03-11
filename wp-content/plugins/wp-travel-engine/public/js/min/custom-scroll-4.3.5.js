@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$(".trip-price").stick_in_parent()});

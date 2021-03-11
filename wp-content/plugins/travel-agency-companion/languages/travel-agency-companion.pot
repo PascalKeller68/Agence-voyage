@@ -1,0 +1,1020 @@
+# Copyright (C) 2021 raratheme
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Travel Agency Companion 1.4.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-13 12:15:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WP Travel Engine\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../travel-agency-companion\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/class-travel-agency-companion-customizer.php:942
+msgid "3"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:943
+msgid "6"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:132
+msgid "225"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:122
+msgid "859"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:137
+msgid "1020"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:127
+msgid "1021"
+msgstr ""
+
+#: includes/class-control-repeater.php:516
+msgid "row"
+msgstr ""
+
+#: includes/class-control-repeater.php:517
+msgid "Add new"
+msgstr ""
+
+#: includes/class-control-repeater.php:518
+msgid "Select a Page"
+msgstr ""
+
+#: includes/class-control-repeater.php:519
+msgid "Limit: %s rows"
+msgstr ""
+
+#: includes/class-control-repeater.php:520
+msgid "Hex Value"
+msgstr ""
+
+#: includes/class-control-repeater.php:521
+msgid "No Image Selected"
+msgstr ""
+
+#: includes/class-control-repeater.php:522
+msgid "Remove"
+msgstr ""
+
+#: includes/class-control-repeater.php:523
+msgid "Add Image"
+msgstr ""
+
+#: includes/class-control-repeater.php:524
+msgid "Change Image"
+msgstr ""
+
+#: includes/class-control-repeater.php:525
+msgid "No File Selected"
+msgstr ""
+
+#: includes/class-control-repeater.php:526
+msgid "Add File"
+msgstr ""
+
+#: includes/class-control-repeater.php:527
+msgid "Change File"
+msgstr ""
+
+#: includes/class-travel-agency-companion-activator.php:42
+#: includes/class-travel-agency-companion-activator.php:51
+msgid ""
+"Sorry, the plugin can not be activated. The current theme is not compatible "
+"with the plugin. Please install and activate %1$s theme. %2$s"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:85
+msgid "About Us Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:103
+msgid "Enable About Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:112
+#: public/partials/travel-agency-companion-partials.php:18
+#: public/sections/about.php:8
+msgid "Create Your Travel Booking Website with Travel Agency Theme"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:121
+#: includes/class-travel-agency-companion-customizer.php:259
+#: includes/class-travel-agency-companion-customizer.php:400
+#: includes/class-travel-agency-companion-customizer.php:826
+#: includes/class-travel-agency-companion-customizer.php:1233
+msgid "Section Title"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:136
+msgid ""
+"Tell a story about your company here. You can modify this section from "
+"Appearance > Customize > Home Page Settings > About Section.\r\n"
+"            \r\n"
+"            Travel Agency is a free WordPress theme that you can use create "
+"stunning and functional travel and tour booking website. It is lightweight, "
+"responsive and SEO friendly. It is compatible with WP Travel Engine, a "
+"WordPress plugin for travel booking.\r\n"
+"            \r\n"
+"            It is also translation ready. So you can translate your website "
+"in any language."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:149
+#: includes/class-travel-agency-companion-customizer.php:283
+#: includes/class-travel-agency-companion-customizer.php:424
+#: includes/class-travel-agency-companion-customizer.php:850
+#: includes/class-travel-agency-companion-customizer.php:1257
+msgid "Section Description"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:164
+#: public/partials/travel-agency-companion-partials.php:36
+#: public/sections/about.php:14
+msgid "View More"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:173
+#: includes/class-travel-agency-companion-customizer.php:984
+#: includes/class-travel-agency-companion-customizer.php:1376
+#: includes/class-travel-agency-companion-customizer.php:1537
+msgid "Read More label"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:188
+#: public/sections/about.php:15
+msgid "#"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:196
+#: includes/class-travel-agency-companion-customizer.php:1560
+msgid "Read More link"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:223
+msgid "Adventure Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:241
+msgid "Enable Adventure Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:250
+#: public/partials/travel-agency-companion-partials.php:43
+#: public/sections/activities.php:10
+msgid "Adventure Activities"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:274
+msgid ""
+"This is the best place to tell your visitors what travel services your "
+"company provide. You can modify this section from Appearance > Customize > "
+"Home Page Settings > Adventure Section on your WordPress."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:308
+#: includes/class-travel-agency-companion-customizer.php:737
+#: includes/class-travel-agency-companion-customizer.php:1148
+#: includes/class-travel-agency-companion-customizer.php:1580
+msgid "Background Image"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:331
+msgid "Add Adventures"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:332
+msgid "Add adventures from here"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:336
+#: includes/class-travel-agency-companion-customizer.php:688
+#: includes/class-travel-agency-companion-customizer.php:768
+#: includes/class-travel-agency-companion-customizer.php:1099
+#: includes/class-travel-agency-companion-customizer.php:1179
+#: includes/widgets/widget-popular-post.php:188
+#: includes/widgets/widget-recent-post.php:118
+msgid "Title"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:340
+#: includes/class-travel-agency-companion-customizer.php:712
+#: includes/class-travel-agency-companion-customizer.php:1123
+msgid "Description"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:344
+#: includes/class-travel-agency-companion-customizer.php:776
+msgid "Link"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:348
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:355
+msgid "adventures"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:364
+msgid "Best Sellers Packages"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:382
+msgid "Enable Best Sellers Packages Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:391
+#: public/partials/travel-agency-companion-partials.php:57
+#: public/sections/popular.php:11
+msgid "Our Best Sellers Packages"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:415
+#: public/partials/travel-agency-companion-partials.php:64
+#: public/sections/popular.php:12
+msgid ""
+"This is the best place to show your most sold and popular travel packages. "
+"You can modify this section from Appearance > Customize > Home Page "
+"Settings > Best Sellers Packages."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:449
+msgid "We recommend to choose all the options here for a flawless design."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:467
+msgid "Enable Best Seller Demo Content"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:468
+msgid ""
+"If there are no Best Seller Category and Posts selected, demo content will "
+"be displayed. Uncheck to hide demo content of this section."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:485
+msgid "Choose Best Seller Category"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:486
+#: includes/class-travel-agency-companion-customizer.php:917
+msgid ""
+"Go to Trips > Activities and add. Then you will be able to select a trip "
+"activities from the dropdown."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:505
+#: includes/class-travel-agency-companion-customizer.php:1301
+msgid ""
+"Go to Trips > Add New trips. Then you will be able to select a trip from "
+"the dropdown below."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:522
+msgid "Best Seller One"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:541
+msgid "Best Seller Two"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:560
+msgid "Best Seller Three"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:579
+msgid "Best Seller Four"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:590
+#: public/partials/travel-agency-companion-partials.php:71
+#: public/sections/popular.php:18
+msgid "View All Packages"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:599
+#: includes/class-travel-agency-companion-customizer.php:1400
+msgid "View All Label"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:622
+#: includes/class-travel-agency-companion-customizer.php:1423
+msgid "View All URL"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:639
+#: includes/class-travel-agency-companion-customizer.php:1050
+#: includes/class-travel-agency-companion-customizer.php:1440
+msgid "Instructions"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:643
+#: includes/class-travel-agency-companion-customizer.php:1054
+msgid ""
+"Please install the recommended plugin \"WP Travel Engine\" for setting of "
+"this section."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:652
+#: includes/class-travel-agency-companion-customizer.php:679
+#: public/partials/travel-agency-companion-partials.php:78
+#: public/sections/our-feature.php:9
+msgid "Why Book with Us"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:670
+msgid "Enable Why Us Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:703
+#: public/partials/travel-agency-companion-partials.php:85
+#: public/sections/our-feature.php:10
+msgid ""
+"Let your visitors know why they should trust you and book with you. You can "
+"modify this section from Appearance > Customize > Home Page Settings > Why "
+"Book with Us."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:760
+msgid "Add Points"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:764
+#: includes/class-travel-agency-companion-customizer.php:1175
+msgid "Add Icon"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:772
+msgid "Desciption"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:781
+msgid "points"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:790
+msgid "Featured Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:808
+msgid "Enable Feature Trip Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:817
+#: public/partials/travel-agency-companion-partials.php:92
+#: public/sections/featured-trip.php:11
+msgid "Featured Trip"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:841
+#: public/partials/travel-agency-companion-partials.php:99
+#: public/sections/featured-trip.php:12
+msgid ""
+"This is the best place to show your other travel packages. You can modify "
+"this section from Appearance > Customize > Home Page Settings > Featured "
+"Section."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:876
+msgid "Enable Featured Demo Content"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:877
+msgid ""
+"If there is no Featured Trip Category selected, demo content will be "
+"displayed. Uncheck to hide demo content of this section."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:894
+msgid "Choose Trips From"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:898
+msgid "Featured Trip Category"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:899
+msgid "Select Trips"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:916
+msgid "Choose Featured Trip Category"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:938
+msgid "No. of Trips"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:962
+msgid "Latest Trip #%1$s"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:975
+#: public/partials/travel-agency-companion-partials.php:106
+#: public/sections/featured-trip.php:16 public/sections/featured-trip.php:275
+msgid "View Detail"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:999
+#: public/partials/travel-agency-companion-partials.php:113
+#: public/sections/featured-trip.php:17
+msgid "View All Trip"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1008
+msgid "View All label"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1031
+msgid "View All Url"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1032
+msgid "Please insert custom url link to show all trips."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1063
+msgid "Stats Counter Settings"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1081
+msgid "Enable Stat Counter Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1090
+#: public/partials/travel-agency-companion-partials.php:120
+#: public/sections/stats.php:9
+msgid "Stats Counter"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1114
+#: public/partials/travel-agency-companion-partials.php:127
+#: public/sections/stats.php:10
+msgid ""
+"Display most valuable statistics about your company here. You can modify "
+"this section from Appearance > Customize > Home Page Settings > Stats "
+"Counter Settings."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1171
+msgid "Add Counter"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1183
+msgid "Number"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1188
+msgid "counter"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1197
+msgid "Deals Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1215
+msgid "Enable Deals & Discount Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1224
+#: public/partials/travel-agency-companion-partials.php:134
+#: public/sections/deals.php:11
+msgid "Deals and Discounts"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1248
+#: public/partials/travel-agency-companion-partials.php:141
+#: public/sections/deals.php:12
+msgid ""
+"how the special deals and discounts to your customers here. You can "
+"customize this section from Appearance > Customize > Home Page Settings > "
+"Deals Section."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1283
+msgid "Enable Deal Demo Content"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1284
+msgid ""
+"If there are no Deal Post selected, demo content will be displayed. Uncheck "
+"to hide demo content of this section."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1318
+msgid "Deal Post One"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1337
+msgid "Deal Post Two"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1356
+msgid "Deal Post Three"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1367
+#: public/partials/travel-agency-companion-partials.php:148
+#: public/sections/deals.php:16 public/sections/deals.php:249
+msgid "Book Now"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1391
+#: public/partials/travel-agency-companion-partials.php:155
+#: public/sections/deals.php:17
+msgid "View All Deals"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1444
+msgid ""
+"Please install the recomended plugin \"WP Travel Engine\" for setting of "
+"this section."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1453
+msgid "Call to Action Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1471
+msgid "Enable Call To Action Section"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1480
+#: public/partials/travel-agency-companion-partials.php:162
+#: public/sections/cta.php:8
+msgid "Get Ready"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1489
+msgid "Call to Action Title"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1504
+#: public/partials/travel-agency-companion-partials.php:169
+#: public/sections/cta.php:9
+msgid ""
+"Keep a Call To Action button and promote your services. You can modify this "
+"section from Appearance > Customize > Home Page Settings > Call to Action "
+"Section."
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1513
+msgid "Call to Action Description"
+msgstr ""
+
+#: includes/class-travel-agency-companion-customizer.php:1528
+#: public/partials/travel-agency-companion-partials.php:176
+#: public/sections/cta.php:10
+msgid "Browse Package"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:19
+#: includes/class-travel-agency-companion-dummy-array.php:49
+msgid "Whitewater Rafting"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:20
+#: includes/class-travel-agency-companion-dummy-array.php:26
+#: includes/class-travel-agency-companion-dummy-array.php:32
+#: includes/class-travel-agency-companion-dummy-array.php:38
+#: includes/class-travel-agency-companion-dummy-array.php:44
+#: includes/class-travel-agency-companion-dummy-array.php:50
+#: includes/class-travel-agency-companion-dummy-array.php:56
+#: includes/class-travel-agency-companion-dummy-array.php:62
+msgid "Tell your potential customers about the services that you provide here."
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:25
+#: includes/class-travel-agency-companion-dummy-array.php:55
+msgid "Hiking"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:31
+#: includes/class-travel-agency-companion-dummy-array.php:61
+msgid "Skiing"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:37
+msgid "Cycling"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:43
+msgid "Paragliding"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:76
+#: includes/class-travel-agency-companion-dummy-array.php:100
+msgid "TripAdvisor Multiple Award winning company"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:77
+#: includes/class-travel-agency-companion-dummy-array.php:101
+msgid ""
+"We've received Certificate of Excellence award from TripAdvisor, the "
+"world's largest travel website."
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:82
+#: includes/class-travel-agency-companion-dummy-array.php:106
+msgid "100% Customizable"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:83
+#: includes/class-travel-agency-companion-dummy-array.php:107
+msgid ""
+"Tell us about your trip requirement. We'll work together to customize your "
+"trip to meet your exact requirement so that you have a memorable trip."
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:88
+msgid "Local Experts. Middle-man Free Pricing"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:89
+msgid ""
+"We're a local travel agency. When you book with us, you get best possible "
+"price, which is middle-man free."
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:94
+msgid "No Hidden Charges"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:95
+msgid ""
+"We don't add hidden extras cost. All trips include travel permit, lodging "
+"and fooding. There are no surprises with hidden costs."
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:121
+msgid "Number of Customers"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:126
+msgid "Number of Trips"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:131
+msgid "Trips Types"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:136
+msgid "Travel with Bus"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:151
+#: includes/class-travel-agency-companion-dummy-array.php:221
+#: includes/class-travel-agency-companion-dummy-array.php:267
+msgid "Cayo de Agua, Los Roques, Venezuela"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:152
+#: includes/class-travel-agency-companion-dummy-array.php:164
+#: includes/class-travel-agency-companion-dummy-array.php:192
+msgid "5 Days"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:153
+#: includes/class-travel-agency-companion-dummy-array.php:223
+#: includes/class-travel-agency-companion-dummy-array.php:269
+msgid "$ 1875"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:157
+#: includes/class-travel-agency-companion-dummy-array.php:185
+#: includes/class-travel-agency-companion-dummy-array.php:233
+msgid "A Guid To Rocky Mountain Vacations"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:158
+#: includes/class-travel-agency-companion-dummy-array.php:170
+#: includes/class-travel-agency-companion-dummy-array.php:186
+#: includes/class-travel-agency-companion-dummy-array.php:198
+msgid "4 Days"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:159
+#: includes/class-travel-agency-companion-dummy-array.php:187
+#: includes/class-travel-agency-companion-dummy-array.php:235
+msgid "$ 1775"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:163
+#: includes/class-travel-agency-companion-dummy-array.php:191
+#: includes/class-travel-agency-companion-dummy-array.php:239
+#: includes/class-travel-agency-companion-dummy-array.php:275
+msgid "Everest Base Camp Trek"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:165
+#: includes/class-travel-agency-companion-dummy-array.php:193
+#: includes/class-travel-agency-companion-dummy-array.php:241
+#: includes/class-travel-agency-companion-dummy-array.php:277
+msgid "$ 2000"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:169
+#: includes/class-travel-agency-companion-dummy-array.php:197
+#: includes/class-travel-agency-companion-dummy-array.php:245
+#: includes/class-travel-agency-companion-dummy-array.php:283
+msgid "Annapurna Base Camp Trek"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:171
+#: includes/class-travel-agency-companion-dummy-array.php:199
+#: includes/class-travel-agency-companion-dummy-array.php:247
+#: includes/class-travel-agency-companion-dummy-array.php:285
+msgid "$ 1950"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:175
+#: includes/class-travel-agency-companion-dummy-array.php:203
+#: includes/class-travel-agency-companion-dummy-array.php:251
+msgid "Dolpho Base Camp Trek"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:176
+#: includes/class-travel-agency-companion-dummy-array.php:204
+msgid "3 Days"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:177
+#: includes/class-travel-agency-companion-dummy-array.php:205
+#: includes/class-travel-agency-companion-dummy-array.php:253
+msgid "$ 2200"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:222
+#: includes/class-travel-agency-companion-dummy-array.php:240
+#: includes/class-travel-agency-companion-dummy-array.php:268
+#: includes/class-travel-agency-companion-dummy-array.php:276
+msgid "5 Days - 4 Nights"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:227
+msgid "Cum sociis natoque penati bus et magnis"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:228
+#: includes/class-travel-agency-companion-dummy-array.php:234
+#: includes/class-travel-agency-companion-dummy-array.php:246
+#: includes/class-travel-agency-companion-dummy-array.php:284
+msgid "4 Days - 3 Nights"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:229
+msgid "$ 1625"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:252
+msgid "3 Days - 2 Nights"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:270
+msgid "$ 2500"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:271
+msgid "25% Off"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:278
+#: includes/class-travel-agency-companion-dummy-array.php:286
+msgid "$ 3900"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:279
+msgid "49% Off"
+msgstr ""
+
+#: includes/class-travel-agency-companion-dummy-array.php:287
+msgid "50% Off"
+msgstr ""
+
+#: includes/class-travel-agency-companion-functions.php:14
+msgid "Choose Category"
+msgstr ""
+
+#: includes/class-travel-agency-companion-functions.php:50
+msgid " -- Choose -- "
+msgstr ""
+
+#: includes/widgets/widget-featured.php:25
+msgid "Travel Agency: Featured Widget"
+msgstr ""
+
+#: includes/widgets/widget-featured.php:26
+msgid "A Featured Widget"
+msgstr ""
+
+#: includes/widgets/widget-featured.php:39
+#: includes/widgets/widget-featured.php:113
+#: includes/widgets/widget-featured.php:161
+msgid "Read More"
+msgstr ""
+
+#: includes/widgets/widget-featured.php:101
+msgid "--Choose--"
+msgstr ""
+
+#: includes/widgets/widget-featured.php:119
+msgid "Posts"
+msgstr ""
+
+#: includes/widgets/widget-featured.php:129
+msgid "Read More Text"
+msgstr ""
+
+#: includes/widgets/widget-featured.php:135
+#: includes/widgets/widget-popular-post.php:207
+#: includes/widgets/widget-recent-post.php:129
+msgid "Show Post Thumbnail"
+msgstr ""
+
+#: includes/widgets/widget-featured.php:141
+#: includes/widgets/widget-recent-post.php:140
+msgid "Open in New Tab"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:28
+msgid "Travel Agency: Popular Post"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:29
+msgid "A Popular Post Widget"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:66
+msgid "0 View"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:68
+msgid " View"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:70
+msgid " Views"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:84
+#: includes/widgets/widget-popular-post.php:177
+#: includes/widgets/widget-popular-post.php:273
+msgid "Popular Posts"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:193
+#: includes/widgets/widget-recent-post.php:123
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:198
+msgid "Popular based on:"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:200
+msgid "Post Views"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:201
+msgid "Comment Count"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:212
+#: includes/widgets/widget-recent-post.php:134
+msgid "Show Post Date"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:219
+msgid "Show number of comments"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:228
+msgid "Show number of views"
+msgstr ""
+
+#: includes/widgets/widget-popular-post.php:236
+msgid "Show posts in New Tab"
+msgstr ""
+
+#: includes/widgets/widget-recent-post.php:25
+msgid "Travel Agency: Recent Post"
+msgstr ""
+
+#: includes/widgets/widget-recent-post.php:26
+msgid "A Recent Post Widget"
+msgstr ""
+
+#: includes/widgets/widget-recent-post.php:40
+#: includes/widgets/widget-recent-post.php:110
+#: includes/widgets/widget-recent-post.php:159
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/widgets/widget-recent-post.php:83
+msgid "%1$s"
+msgstr ""
+
+#: public/partials/travel-agency-companion-partials.php:25
+#: public/sections/about.php:9
+msgid ""
+"Tell a story about your company here. You can modify this section from "
+"Appearance > Customize > Home Page Settings > About Section.\r\n"
+"\r\n"
+"            Travel Agency is a free WordPress theme that you can use create "
+"stunning and functional travel and tour booking website. It is lightweight, "
+"responsive and SEO friendly. It is compatible with WP Travel Engine, a "
+"WordPress plugin for travel booking.\r\n"
+"            \r\n"
+"            It is also translation ready. So you can translate your website "
+"in any language."
+msgstr ""
+
+#: public/partials/travel-agency-companion-partials.php:50
+#: public/sections/activities.php:11
+msgid ""
+"This is the best place to tell your visitors what travel services your "
+"company provide. You can modify this section from Appearance > Customize > "
+"Home Page Settings > Adventure Activities Section on your WordPress."
+msgstr ""
+
+#: public/sections/deals.php:88 public/sections/featured-trip.php:107
+msgid "%1$s&percnt; Off"
+msgstr ""
+
+#: public/sections/deals.php:96 public/sections/featured-trip.php:115
+msgid "You have group discount in this trip."
+msgstr ""
+
+#: public/sections/deals.php:115 public/sections/featured-trip.php:134
+msgid "Featured"
+msgstr ""
+
+#: public/sections/deals.php:204 public/sections/featured-trip.php:222
+msgid "Next Departure"
+msgstr ""
+
+#: public/sections/deals.php:208 public/sections/featured-trip.php:226
+msgid "%1$s Available"
+msgstr ""
+
+#: public/sections/featured-trip.php:282
+msgid "View all trip"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Travel Agency Companion"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/travel-agency-companion"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Companion for adding features to the Travel Agency Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "raratheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "raratheme.com"
+msgstr ""
+
+#: public/sections/deals.php:149 public/sections/featured-trip.php:168
+#: public/sections/popular.php:95 public/sections/popular.php:151
+msgctxt "trip duration"
+msgid "%1$s Day"
+msgid_plural "%1$s Days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/sections/deals.php:152 public/sections/featured-trip.php:171
+#: public/sections/popular.php:98 public/sections/popular.php:154
+msgctxt "trip duration night"
+msgid " - %1$s Night"
+msgid_plural " - %1$s Nights"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/sections/deals.php:188 public/sections/featured-trip.php:206
+msgctxt "reviews count"
+msgid "review"
+msgid_plural "reviews"
+msgstr[0] ""
+msgstr[1] ""

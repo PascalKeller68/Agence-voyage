@@ -1,0 +1,1577 @@
+:root {
+    --primary-color: #147DFE;
+    --primary-color-rgb: 20, 125, 254;
+    --black-color: #000000;
+    --black-color-rgb: 0, 0, 0;
+    /*--primary-font: 'Poppins', sans-serif;*/
+  }
+
+  .wpte-bf-outer *,
+  .wpte-bf-outer *:before,
+  .wpte-bf-outer *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .wpte-bf-outer,
+  .wpte-bf-outer input,
+  .wpte-bf-outer textarea,
+  .wpte-bf-outer select,
+  .wpte-bf-outer button {
+    /*font-family: var(--primary-font);*/
+    font-weight: 400;
+  }
+
+  .wpte-bf-outer img {
+    vertical-align: top;
+    max-width: 100%;
+  }
+
+  .wpte-bf-outer input[type="text"],
+  .wpte-bf-outer input[type="email"],
+  .wpte-bf-outer input[type="url"],
+  .wpte-bf-outer input[type="password"],
+  .wpte-bf-outer input[type="search"],
+  .wpte-bf-outer input[type="number"],
+  .wpte-bf-outer input[type="tel"],
+  .wpte-bf-outer input[type="range"],
+  .wpte-bf-outer input[type="date"],
+  .wpte-bf-outer input[type="month"],
+  .wpte-bf-outer input[type="week"],
+  .wpte-bf-outer input[type="time"],
+  .wpte-bf-outer input[type="datetime"],
+  .wpte-bf-outer input[type="datetime-local"],
+  .wpte-bf-outer input[type="color"],
+  .wpte-bf-outer select {
+    height: 60px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(var(--black-color-rgb), 0.1);
+    background: rgba(var(--black-color-rgb), 0.01);
+    padding: 10px 15px;
+    font-size: 16px;
+    text-shadow: none;
+    box-shadow: none;
+  }
+
+  .wpte-bf-outer input[type="text"]:focus,
+  .wpte-bf-outer input[type="email"]:focus,
+  .wpte-bf-outer input[type="url"]:focus,
+  .wpte-bf-outer input[type="password"]:focus,
+  .wpte-bf-outer input[type="search"]:focus,
+  .wpte-bf-outer input[type="number"]:focus,
+  .wpte-bf-outer input[type="tel"]:focus,
+  .wpte-bf-outer input[type="range"]:focus,
+  .wpte-bf-outer input[type="date"]:focus,
+  .wpte-bf-outer input[type="month"]:focus,
+  .wpte-bf-outer input[type="week"]:focus,
+  .wpte-bf-outer input[type="time"]:focus,
+  .wpte-bf-outer input[type="datetime"]:focus,
+  .wpte-bf-outer input[type="datetime-local"]:focus,
+  .wpte-bf-outer input[type="color"]:focus,
+  .wpte-bf-outer textarea:focus,
+  .wpte-bf-outer select:focus {
+      outline: none;
+  }
+
+  .wpte-bf-outer select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="rgba(0,0,0,0.5)" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) 50%;
+    background-size: 14px;
+    padding-right: 40px;
+  }
+
+  .wpte-bf-outer input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+  .wpte-bf-checkbox .wpte-bf-checkbox-wrap {
+    font-size: 14px;
+    color: rgba(var(--black-color-rgb), 0.6);
+    position: relative;
+  }
+
+  .wpte-bf-checkbox .wpte-bf-checkbox-wrap a {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+  .wpte-bf-checkbox .wpte-bf-checkbox-wrap a:hover {
+    text-decoration: none;
+  }
+
+  .wpte-bf-checkbox .wpte-bf-checkbox-wrap input[type="checkbox"] {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+  }
+
+  .wpte-bf-checkbox .wpte-bf-checkbox-wrap label {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+  }
+
+  .wpte-bf-checkbox .wpte-bf-checkbox-wrap label::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid rgba(var(--black-color-rgb), 0.4);
+    position: absolute;
+    top: 1px;
+    left: 0;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23fff" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>');
+    background-size: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: all ease 0.35s;
+    -moz-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+  }
+
+  .wpte-bf-checkbox .wpte-bf-checkbox-wrap input[type="checkbox"]:checked + label::before {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    background-size: 13px;
+  }
+
+  .parsley-errors-list {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.parsley-errors-list li {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #cc444d;
+}
+
+  .wpte-bf-outer .wpte-bf-field {
+    margin-bottom: 30px;
+  }
+
+  .wpte-bf-outer .wpte-bf-label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    color: rgba(var(--black-color-rgb), 0.6);
+  }
+
+  .required {
+    color: #FF8B3D;
+  }
+
+  .wpte-bf-price-wrap {
+    border: 1px solid rgba(var(--black-color-rgb), 0.06);
+    background: rgba(var(--black-color-rgb), 0.01);
+    padding: 8%;
+  }
+
+  .wpte-bf-price-wrap .wpte-bf-ptitle {
+    font-size: 15px;
+    line-height: 1.53;
+    margin-bottom: 10px;
+  }
+
+  .wpte-bf-price-wrap .wpte-bf-price {
+    border-bottom: 1px solid rgba(var(--black-color-rgb), 0.07);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .wpte-bf-price-wrap .wpte-bf-price:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .wpte-bf-price-wrap .wpte-bf-price del {
+    color: rgba(var(--black-color-rgb), 0.4);
+    font-size: 17px;
+    display: inline-block;
+    padding-right: 10px;
+  }
+
+  .wpte-bf-price-wrap .wpte-bf-price ins {
+      background: none;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+  }
+
+  .wpte-bf-price-wrap .wpte-bf-price ins b {
+    font-weight: 600;
+  }
+
+  .wpte-bf-price-wrap .wpte-bf-price .wpte-bf-pqty {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+
+  .wpte-bf-toggle-wrap .wpte-bf-toggle-title {
+    border-radius: 0;
+    width: 100%;
+    background: rgba(var(--primary-color-rgb), 0.15);
+    border: none;
+    min-height: 35px;
+    padding: 5px 20px;
+    cursor: pointer;
+    text-shadow: none;
+    color: var(--primary-color);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wpte-bf-toggle-wrap .wpte-bf-toggle-title:hover {
+    background: rgba(var(--primary-color-rgb), 0.2);
+  }
+
+  .wpte-bf-toggle-wrap .wpte-bf-toggle-title .fa-users {
+      margin-right: 10px;
+      width: 18px;
+      height: 15px;
+  }
+
+  .wpte-bf-toggle-wrap .wpte-bf-toggle-title .fa-chevron-down {
+    margin-left: 15px;
+    width: 13px;
+    height: 15px;
+    -webkit-transition: all ease 0.35s;
+    -moz-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+  }
+
+  .wpte-bf-toggle-wrap.active .wpte-bf-toggle-title .fa-chevron-down {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .wpte-bf-toggle-wrap .wpte-bf-toggle-content {
+    display: none;
+  }
+
+  .wpte-bf-toggle-content table {
+    width: 100%;
+    margin: 10px 0 0 0;
+    border-collapse: collapse;
+  }
+
+  .wpte-bf-toggle-content table thead tr {
+    border-bottom: 1px solid rgba(var(--black-color-rgb), 0.35);
+  }
+
+  .wpte-bf-toggle-content table thead tr th {
+      border: none;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  .wpte-bf-toggle-content table thead tr th:last-child {
+    text-align: right;
+  }
+
+  .wpte-bf-toggle-content table tr td {
+      border: none;
+    padding: 12px 0;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    position: relative;
+  }
+
+  .wpte-bf-toggle-content table tr td:first-child {
+    padding-right: 47px;
+  }
+
+  .wpte-bf-toggle-content table tr td:last-child {
+    text-align: right;
+    font-weight: 500;
+    padding-left: 47px;
+  }
+
+  .wpte-bf-toggle-content table tr td:first-child::before {
+    content: "";
+    border-top: 1px dashed rgba(var(--black-color-rgb), 0.5);
+    height: 1px;
+    width: 94px;
+    position: absolute;
+    top: 0;
+    left: calc(100% - 47px);
+    bottom: 0;
+    margin: auto;
+    z-index: 9;
+  }
+
+  .wpte-bf-booking-steps {
+    margin-top: 45px;
+    box-shadow: 0 -1px 45px rgba(var(--black-color-rgb), 0.07);
+  }
+
+  .wpte-bf-booking-steps .wpte-bf-step-wrap {
+    background: rgba(var(--black-color-rgb), 0.05);
+    padding: 15px;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step {
+    background: none;
+    border: none;
+    padding: 0;
+    text-shadow: none;
+    color: #333;
+    font-size: 14px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+  .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step.active {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-color);
+  }
+
+  .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step-arrow {
+    padding: 0 5px;
+    position: relative;
+    top: 2px;
+  }
+
+  .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step-arrow:last-child {
+    display: none;
+  }
+
+  .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step-arrow svg {
+    width: 10px;
+    height: 13px;
+  }
+
+  .wpte-bf-step-content:first-child {
+        padding-bottom: 30px;
+    }
+
+  .wpte-bf-step-content:not(.active) {
+    display: none;
+  }
+
+  .wpte-bf-datepicker {
+    padding: 25px;
+  }
+
+  .wpte-bf-datepicker .ui-datepicker-inline {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(var(--primary-color-rgb), 0.07);
+    padding: 0;
+    background: #fff;
+    border-radius: 0;
+  }
+
+  .wpte-bf-datepicker .ui-widget {
+    /*font-family: var(--primary-font);*/
+    max-width: 100%;
+  }
+
+  .wpte-bf-datepicker .ui-datepicker-inline .ui-widget-header {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(var(--primary-color-rgb), 0.07);
+    border-radius: 0;
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .wpte-bf-datepicker .ui-datepicker-inline .ui-datepicker-title {
+    line-height: 1.18;
+    font-size: 17px !important;
+  }
+
+  .wpte-bf-datepicker .ui-datepicker-inline .ui-widget-header a[class*="ui-datepicker-"] {
+    top: auto;
+    bottom: 5px;
+    border: none;
+    background-color: transparent;
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M152.485 396.284l19.626-19.626c4.753-4.753 4.675-12.484-.173-17.14L91.22 282H436c6.627 0 12-5.373 12-12v-28c0-6.627-5.373-12-12-12H91.22l80.717-77.518c4.849-4.656 4.927-12.387.173-17.14l-19.626-19.626c-4.686-4.686-12.284-4.686-16.971 0L3.716 247.515c-4.686 4.686-4.686 12.284 0 16.971l131.799 131.799c4.686 4.685 12.284 4.685 16.97-.001z"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    cursor: pointer;
+    height: 1.8em !important;
+  }
+
+  .wpte-bf-datepicker .ui-datepicker-inline .ui-widget-header a.ui-datepicker-prev-hover,
+  .wpte-bf-datepicker .ui-datepicker-inline .ui-widget-header a.ui-datepicker-next-hover {
+    top: auto;
+    bottom: 5px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+
+  .wpte-bf-datepicker .ui-datepicker .ui-datepicker-prev-hover {
+    left: 2px;
+  }
+
+  .wpte-bf-datepicker .ui-datepicker-inline .ui-widget-header a.ui-datepicker-next {
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M295.515 115.716l-19.626 19.626c-4.753 4.753-4.675 12.484.173 17.14L356.78 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h344.78l-80.717 77.518c-4.849 4.656-4.927 12.387-.173 17.14l19.626 19.626c4.686 4.686 12.284 4.686 16.971 0l131.799-131.799c4.686-4.686 4.686-12.284 0-16.971L312.485 115.716c-4.686-4.686-12.284-4.686-16.97 0z"></path></svg>');
+  }
+
+  .wpte-bf-datepicker .ui-datepicker .ui-datepicker-next-hover {
+    right: 2px;
+  }
+
+  .wpte-bf-datepicker .ui-datepicker-inline .ui-widget-header a[class*="ui-datepicker-"] span {
+        display: none;
+    }
+
+    .wpte-bf-step-content .ui-datepicker table {
+        font-size: 16px !important;
+    }
+
+  .wpte-bf-datepicker .ui-datepicker th {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(var(--primary-color-rgb), 0.07);
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black-color);
+  }
+
+  .wpte-bf-step-content .ui-datepicker td span,
+  .wpte-bf-step-content .ui-datepicker td a {
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+}
+
+  .wpte-bf-datepicker .ui-datepicker td a.ui-state-default {
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    color: var(--black-color);
+    font-weight: 400;
+    padding: 7px 0;
+  }
+
+  .wpte-bf-datepicker .ui-datepicker td a.ui-state-default:hover {
+      background: var(--black-color);
+      color: #fff;
+
+  }
+
+  .wpte-bf-step-content .ui-state-default,
+  .wpte-bf-step-content .ui-widget-content .ui-state-default,
+  .wpte-bf-step-content .ui-widget-header .ui-state-default,
+  .wpte-bf-step-content .ui-button,
+  html .wpte-bf-step-content .ui-button.ui-state-disabled:hover,
+  html .wpte-bf-step-content .ui-button.ui-state-disabled:active {
+    border: none;
+    text-align: center;
+    background: none;
+}
+
+  .wpte-bf-step-content .wpte-bf-block-title {
+    padding: 30px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgba(var(--black-color-rgb), 0.8);
+  }
+
+  .wpte-bf-step-content .wpte-bf-traveler-member {
+    padding: 0 25px;
+  }
+
+  .wpte-bf-step-content .wpte-bf-traveler-member .wpte-bf-traveler-block,
+  .wpte-bf-step-content .wpte-bf-traveler-member .wpte-bf-es-block {
+    border-bottom: 1px solid rgba(var(--black-color-rgb), 0.05);
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .wpte-bf-step-content .wpte-bf-traveler-block .wpte-bf-traveler,
+  .wpte-bf-step-content .wpte-bf-es-block .wpte-bf-traveler {
+    display: flex;
+    flex: initial;
+    align-items: center;
+    position: relative;
+    padding-right: 20px;
+  }
+
+  .wpte-bf-step-content .wpte-bf-number-field {
+    width: 82px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid rgba(var(--black-color-rgb), 0.3);
+    overflow: hidden;
+    display: flex;
+    flex: initial;
+  }
+
+  .wpte-bf-step-content .wpte-bf-number-field input[type="text"] {
+    width: calc(100% - 54px);
+    padding: 0;
+    border: none;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    text-align: center;
+    font-weight: 500;
+    color: var(--black-color);
+    font-size: 18px;
+    height: auto;
+    border-radius: 0;
+    background: #fff;
+  }
+
+  .wpte-bf-step-content .wpte-bf-number-field button {
+    color: #333;
+    width: 27px;
+    height: 100%;
+    background: rgba(var(--black-color-rgb), 0.1);
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wpte-bf-step-content .wpte-bf-number-field button.wpte-bf-minus {
+    order: -1;
+  }
+
+  .wpte-bf-step-content .wpte-bf-number-field button:hover {
+    color: var(--primary-color);
+  }
+
+  .wpte-bf-step-content .wpte-bf-number-field button svg {
+    width: 12px;
+    height: 16px;
+  }
+
+  .wpte-bf-step-content .wpte-bf-number-field + span {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    width: calc(100% - 82px);
+  }
+
+  .wpte-bf-step-content .wpte-bf-price {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+
+  .wpte-bf-step-content .wpte-bf-traveler-block .wpte-bf-price,
+  .wpte-bf-step-content .wpte-bf-es-block .wpte-bf-price {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-end;
+  }
+
+  .wpte-bf-step-content .wpte-bf-price ins {
+    background: none;
+    text-decoration: none;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .wpte-bf-step-content .wpte-bf-price ins b {
+    font-weight: 600;
+    padding-left: 5px;
+  }
+
+  .wpte-bf-step-content .wpte-bf-price .wpte-bf-pqty {
+    display: block;
+    font-size: 13px;
+    text-align: right;
+    color: rgba(var(--black-color-rgb), 0.5);
+    letter-spacing: 0;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-total-price {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-total-price > span {
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 0.5px;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-total-price .wpte-bf-total-txt {
+    margin-right: 5px;
+    font-weight: 200;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-total-price .wpte-bf-currency {
+    font-weight: 300;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-total-price .wpte-bf-price-amt {
+    font-weight: 600;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-toggle-wrap .wpte-bf-toggle-content {
+    margin-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-toggle-wrap .wpte-bf-toggle-content table {
+    margin-top: 0;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-toggle-wrap .wpte-bf-toggle-content table + table {
+    margin-top: 15px;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-toggle-wrap table caption {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-toggle-content table tr td {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-toggle-content table tr td:first-child::before {
+    display: none;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-toggle-content table tr td .wpte-bf-info {
+    font-size: 12px;
+    color: rgba(var(--black-color-rgb), 0.6);
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-toggle-content .wpte-bf-total {
+    border-top: 1px solid rgba(var(--black-color-rgb), 0.1);
+    font-weight: 400;
+    text-align: right;
+    padding-top: 10px;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-toggle-content .wpte-bf-total b {
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-btn-wrap {
+    padding: 25px 25px 30px 25px;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-btn-wrap input.wpte-bf-btn,
+  .wpte-bf-submit input[type="submit"] {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .wpte-bf-submit input[type="submit"] {
+    font-size: 20px;
+  }
+
+  .wpte-bf-step-content-wrap .wpte-bf-btn-wrap input.wpte-bf-btn:hover,
+  .wpte-bf-submit input[type="submit"]:hover {
+    background: none;
+    color: var(--primary-color);
+  }
+
+  .wpte-bf-info-wrap {
+    position: absolute;
+    top: 0;
+    padding-left: 8px;
+    right: 5px;
+  }
+
+  .wpte-bf-info-wrap .wpte-bf-info-icon {
+    color: var(--black-color);
+    background: rgba(var(--black-color-rgb), 0.07);
+    width: 18px;
+    height: 18px;
+    display: flex;
+    border-radius: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: help;
+  }
+
+  .wpte-bf-info-wrap .wpte-bf-info-icon svg {
+    width: 10px;
+    height: 10px;
+  }
+
+  .wpte-bf-info-wrap .wpte-bf-info-txt {
+    position: absolute;
+    bottom: calc(100% + 15px);
+    right: 0;
+    background: var(--black-color);
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    line-height: 1.5;
+    width: 180px;
+    border-radius: 3px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all ease 0.35s;
+    -moz-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+
+  .wpte-bf-info-wrap .wpte-bf-info-icon:hover + .wpte-bf-info-txt {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+  }
+
+  .wpte-bf-info-wrap .wpte-bf-info-txt::after {
+    content: "";
+    border-top: 4px solid var(--black-color);
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    margin: auto;
+    transform: translateX(-100%);
+  }
+
+  .wpte-bf-help-block {
+    background: rgba(var(--black-color-rgb), 0.05);
+    padding: 7px 12px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .wpte-bf-help-block a {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+  .wpte-bf-help-block a:hover {
+    text-decoration: none;
+  }
+
+  /*==========================
+  CHECKOUT PAGE
+  ==========================*/
+  .wpte-bf-checkout .wpte-bf-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps {
+    margin-top: 0;
+    box-shadow: none;
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap {
+    background: none;
+    padding: 0;
+    text-align: left;
+    font-size: 17px;
+    margin-bottom: 60px;
+    counter-reset: wpte-bf-count;
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step {
+    position: relative;
+    counter-increment: wpte-bf-count;
+    color: rgba(var(--black-color-rgb), 0.3);
+    padding-left: 40px;
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: default;
+    margin-left: 80px;
+    padding-right: 20px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step:first-child {
+    margin-left: 0;
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step:last-child {
+    padding-right: 0;
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step.active {
+    font-weight: 500;
+    color: var(--black-color);
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step::before {
+    content: counter(wpte-bf-count);
+    background: none;
+    border: 3px solid rgba(var(--primary-color-rgb), 0.1);
+    width: 30px;
+    height: 30px;
+    line-height: 23px;
+    color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-radius: 100%;
+    font-weight: 400;
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step.completed::before {
+    content: "";
+    background-color: rgba(var(--primary-color-rgb), 0.1);
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23147dfe" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13px;
+    border-color: transparent;
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step.active::before {
+    background: var(--primary-color);
+    color: #fff;
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step::after {
+    content: "";
+    background: rgba(var(--primary-color-rgb), 0.3);
+    width: 60px;
+    height: 3px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 20px);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step:first-child::after {
+    display: none;
+  }
+
+  .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step.active::after {
+    background: var(--primary-color);
+  }
+
+  .wpte-bf-checkout .wpte-bf-step-content-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .wpte-bf-checkout .wpte-bf-checkout-form {
+    width: 65%;
+    padding-right: 5%;
+  }
+
+  .wpte-bf-checkout .wpte-bf-field.wpte-bf-radio {
+    border-top: 1px solid rgba(var(--black-color-rgb), 0.05);
+    padding-top: 30px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .wpte-bf-checkout .wpte-bf-field.wpte-bf-radio .wpte-bf-label {
+    color: rgba(var(--black-color-rgb), 0.8);
+    font-size: 19px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-radio .wpte-bf-radio-wrap {
+    display: inline-block;
+    margin-right: 3%;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: rgba(var(--black-color-rgb), 0.75);
+    position: relative;
+  }
+
+  .wpte-bf-checkout .wpte-bf-radio .wpte-bf-radio-wrap:last-child {
+    margin-right: 0;
+  }
+
+  .wpte-bf-checkout .wpte-bf-radio .wpte-bf-radio-wrap input[type="radio"] {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+  }
+
+  .wpte-bf-checkout .wpte-bf-radio .wpte-bf-radio-wrap label {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-radio .wpte-bf-radio-wrap label::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border: 2px solid rgba(var(--black-color-rgb), 0.4);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-radius: 100%;
+    box-shadow: 0 0 0 20px #fff inset;
+    background: transparent;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all ease 0.35s;
+    -moz-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+  }
+
+  .wpte-bf-checkout .wpte-bf-radio .wpte-bf-radio-wrap input[type="radio"]:checked + label::before {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 4px #fff inset;
+  }
+
+  .wpte-bf-checkout .wpte-bf-card-number {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(var(--black-color-rgb), 0.1);
+    background: rgba(var(--black-color-rgb), 0.01);
+    padding: 10px 15px;
+    font-size: 16px;
+    text-shadow: none;
+    box-shadow: none;
+    height: auto;
+    min-height: 60px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-card-number input[type="number"] {
+    border: none;
+    background: none;
+    padding: 0 15px 0 0;
+    width: auto;
+    max-width: calc(100% - 140px);
+    display: flex;
+    flex: 1;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .wpte-bf-checkout .wpte-bf-card-number input[type="number"] + img {
+    max-width: 140px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-half {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1%;
+    margin-right: -1%;
+    overflow: hidden;
+  }
+
+  .wpte-bf-checkout .wpte-bf-half .wpte-bf-label {
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .wpte-bf-checkout .wpte-bf-half select {
+    margin-top: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 48%;
+  }
+
+  .wpte-bf-checkout .wpte-bf-password {
+    max-width: 49%;
+  }
+
+  .wpte-bf-checkout .wpte-bf-password-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(var(--black-color-rgb), 0.1);
+    background: rgba(var(--black-color-rgb), 0.01);
+    padding: 10px 15px;
+    font-size: 16px;
+    text-shadow: none;
+    box-shadow: none;
+    height: auto;
+    min-height: 60px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-password-wrap input[type="password"],
+  .wpte-bf-checkout .wpte-bf-password-wrap input[type="text"] {
+    border: none;
+    background: none;
+    padding: 0 15px 0 0;
+    width: calc(100% - 25px);
+    height: auto;
+  }
+
+  .wpte-bf-checkout .wpte-bf-password-wrap .wpte-bf-vp {
+    padding: 0;
+    background: none;
+    border: none;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    line-height: 25px;
+    color: rgba(var(--black-color-rgb), 0.35);
+    cursor: pointer;
+    position: relative;
+  }
+
+  .wpte-bf-checkout .wpte-bf-password-wrap .wpte-bf-vp svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .wpte-bf-checkout .wpte-bf-password-wrap .wpte-bf-vp svg:last-child {
+    display: none;
+  }
+
+  .wpte-bf-checkout .wpte-bf-password-wrap.type-changed .wpte-bf-vp svg:first-child {
+    display: none;
+  }
+
+  .wpte-bf-checkout .wpte-bf-password-wrap.type-changed .wpte-bf-vp svg:last-child {
+    display: block;
+    color: rgba(var(--black-color-rgb), 0.7);
+  }
+
+  .wpte-bf-checkout .wpte-bf-book-summary {
+    width: 35%;
+    position: sticky;
+    top: 50px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap {
+    padding: 10% 10% 0 10%;
+    background: rgba(var(--black-color-rgb), 0.01);
+    border: 1px solid rgba(var(--black-color-rgb), 0.05);
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap .wpte-bf-title {
+    font-size: 28px;
+    font-weight: 300;
+    color: rgba(var(--black-color-rgb), 0.8);
+    margin-bottom: 20px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap .wpte-bf-trip-name-wrap {
+    border-bottom: 1px solid rgba(var(--black-color-rgb), 0.05);
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap .wpte-bf-trip-name {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(var(--black-color-rgb), 0.9);
+    line-height: 1.3;
+    margin-bottom: 0;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap .wpte-bf-trip-date {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table.wpte-bf-extra-info-table {
+    margin-top: 20px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table tr td {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table tr td {
+    border: none;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table tr td:last-child {
+    text-align: right;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table tr td b {
+    font-weight: 500;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table tbody tr:last-child td {
+    padding-bottom: 20px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table tfoot {
+    border-top: 1px solid rgba(var(--black-color-rgb), 0.05);
+    text-align: right;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table tfoot tr td {
+    padding-top: 20px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table tfoot tr td .wpte-bf-total-txt {
+    font-weight: 500;
+    font-size: 17px;
+    display: inline-block;
+    padding-right: 10px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table tfoot tr td .wpte-bf-currency {
+    display: inline-block;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-wrap table tfoot tr td .wpte-bf-price-amt {
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-total {
+    text-align: right;
+    background: rgba(var(--black-color-rgb), 0.75);
+    color: #fff;
+    padding: 2% 10%;
+  }
+
+  .wpte-bf-checkout .wpte-bf-step-content-wrap .wpte-bf-total-price {
+        margin-bottom: 0;
+        line-height: 1.3;
+    }
+
+  .wpte-bf-checkout .wpte-bf-summary-total .wpte-bf-total-txt {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 17px;
+    vertical-align: middle;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-total .wpte-bf-currency {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 26px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .wpte-bf-checkout .wpte-bf-summary-total .wpte-bf-price-amt {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .wpte-bf-checkout .wpte-bf-summary-total .wpte-bf-total-price{
+    color: #232323;
+  }
+
+  .relation-options-title, .personal-options-title {
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.wp-travel-engine-personal-details:nth-child(2n),
+.wp-travel-engine-relation-details:nth-child(2n) {
+    clear: both;
+}
+
+.wp-travel-engine-relation-details select,
+.wp-travel-engine-personal-details select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="rgba(0,0,0,0.5)" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) 50%;
+    background-size: 12px;
+    padding-right: 30px;
+}
+
+#wp-travel-engine-order-form input[type="submit"] {
+    display: table;
+    clear: both;
+    margin-left: 15px;
+}
+.wpte-bf-animate-toggle{
+    position: relative;
+}
+.wpte-bf-animate-toggle .wpte-bf-toggle-content{
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #FFF;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 32px rgba(0,0,0,0.08);
+    box-shadow: 0px 0px 32px rgba(0,0,0,0.08);
+}
+.wpte-bf-step-content-wrap .wpte-bf-toggle-wrap.wpte-bf-animate-toggle .wpte-bf-toggle-content{
+  margin-top: 0;
+}
+.wte-bf-price-detail .wpte-bf-animate-toggle .wpte-bf-toggle-content{
+  bottom: 100%;
+  top: auto;
+}
+.wpte-bf-animate-toggle .wpte-bf-toggle-content .wpte-bf-travellers-price-table{
+  margin-top: 15px !important;
+}
+.wtebf-toggle-title-active:after{
+  display: inline-block;
+  content: "";
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFFFFF' viewBox='0 0 320 512'%3E%3Cpath d='M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z'/%3E%3C/svg%3E") center center no-repeat;
+  height: 18px;
+  width: 18px;
+  margin-left: 15px;
+  vertical-align: middle;
+  margin-top: -3px;
+}
+.wpte-bf-step-content-wrap .wpte-bf-toggle-wrap.wpte-bf-animate-toggle .wpte-bf-toggle-content .wpte-bf-toggle-close{
+  font-size: 0;
+  height: 18px;
+  width: 18px;
+  background: none;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.wpte-bf-step-content-wrap .wpte-bf-toggle-wrap.wpte-bf-animate-toggle .wpte-bf-toggle-content .wpte-bf-toggle-close:hover{
+  background: none;
+}
+.wpte-bf-step-content-wrap .wpte-bf-toggle-wrap.wpte-bf-animate-toggle .wpte-bf-toggle-content .wpte-bf-toggle-close:after{
+  display: inline-block;
+  content: "";
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333333' viewBox='0 0 320 512'%3E%3Cpath d='M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z'/%3E%3C/svg%3E") center center no-repeat;
+  height: 18px;
+  width: 18px;
+  margin-left: 0;
+  vertical-align: middle;
+  margin-top: -3px;
+}
+  /*============================
+  RESPONSIVE STYLESHEET
+  ============================*/
+  @media screen and (min-width: 1025px) and (max-width: 1366px) {
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step {
+      margin-left: 60px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step::after {
+      width: 40px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-summary-wrap {
+      padding: 40px 20px 0 20px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-summary-total {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .wpte-bf-checkout .wpte-bf-step-content-wrap {
+      flex-direction: column-reverse;
+    }
+
+    .wpte-bf-checkout .wpte-bf-checkout-form {
+      width: 100%;
+      padding-right: 0;
+    }
+
+    .wpte-bf-checkout .wpte-bf-book-summary {
+      position: static;
+      width: 100%;
+      margin-bottom: 60px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-summary-wrap {
+      padding: 50px 60px 0 60px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-summary-total {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step {
+      font-size: 14px;
+      padding-left: 0;
+      padding-right: 5px;
+      padding-top: 30px;
+      margin-left: 30px;
+      min-height: 25px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step::before {
+      right: 0;
+      margin: 0 auto;
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step::after {
+      width: 20px;
+      right: calc(100% + 7px);
+      top: 15px;
+      -webkit-transform: none;
+      -moz-transform: none;
+      transform: none;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap {
+      margin-bottom: 40px;
+      font-size: 14px;
+      align-items: flex-start;
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step {
+      font-size: 0;
+      padding-left: 0;
+      padding-right: 5px;
+      padding-top: 35px;
+      margin-left: 35px;
+      min-height: 22px;
+      width: 27px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step.active {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step::before {
+      right: auto;
+      margin: 0;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step .wpte-bf-step-inner {
+      width: 150px;
+      text-align: center;
+      -webkit-transform: translateX(-40%);
+      -moz-transform: translateX(-40%);
+      transform: translateX(-40%);
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step:first-child .wpte-bf-step-inner {
+      text-align: left;
+      -webkit-transform: none;
+      -moz-transform: none;
+      transform: none;
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step:last-child .wpte-bf-step-inner {
+      text-align: right;
+      -webkit-transform: translateX(calc((-100%) + 25px));
+      -moz-transform: translateX(calc((-100%) + 25px));
+      transform: translateX(calc((-100%) + 25px));
+    }
+
+    .wpte-bf-checkout .wpte-bf-password {
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .wpte-bf-booking-steps .wpte-bf-step-wrap {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .wpte-bf-step-content .wpte-bf-traveler-member .wpte-bf-traveler-block,
+    .wpte-bf-step-content .wpte-bf-traveler-member .wpte-bf-es-block {
+      flex-direction: column;
+    }
+
+    .wpte-bf-step-content .wpte-bf-traveler-block .wpte-bf-traveler,
+    .wpte-bf-step-content .wpte-bf-es-block .wpte-bf-traveler {
+      margin-bottom: 20px;
+    }
+
+    .wpte-bf-step-content .wpte-bf-traveler-block .wpte-bf-price,
+    .wpte-bf-step-content .wpte-bf-es-block .wpte-bf-price {
+      align-items: center;
+    }
+
+    .wpte-bf-info-wrap .wpte-bf-info-txt {
+      right: -10px;
+      -webkit-transform: none;
+      -moz-transform: none;
+      transform: none;
+    }
+
+    .wpte-bf-info-wrap .wpte-bf-info-txt::after {
+      left: auto;
+      right: 8px;
+    }
+
+    .wpte-bf-step-content .wpte-bf-price,
+    .wpte-bf-step-content .wpte-bf-price .wpte-bf-pqty {
+      text-align: center;
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step {
+      padding-top: 30px;
+      margin-left: 30px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step::before {
+      width: 22px;
+      height: 22px;
+      border-width: 2px;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 18px;
+      top: 5px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-radio .wpte-bf-radio-wrap {
+      margin-right: 20px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-card-number {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .wpte-bf-checkout .wpte-bf-card-number input[type="number"] {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      flex: initial;
+      padding-right: 0;
+    }
+
+    .wpte-bf-checkout .wpte-bf-card-number img {
+      margin-top: 15px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-card-number input[type="number"] + img {
+      max-width: 100%;
+    }
+
+    .wpte-bf-checkout .wpte-bf-half {
+      margin-left: 0;
+      margin-right: 0;
+      flex-direction: column;
+    }
+
+    .wpte-bf-checkout .wpte-bf-half .wpte-bf-label {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .wpte-bf-checkout .wpte-bf-half select {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .wpte-bf-checkout .wpte-bf-summary-wrap {
+      padding: 40px 20px 0 20px;
+    }
+
+    .wpte-bf-checkout .wpte-bf-summary-total {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }

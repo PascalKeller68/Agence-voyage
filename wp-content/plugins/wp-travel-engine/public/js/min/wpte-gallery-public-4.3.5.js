@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){var rtlenable=!1;"1"==rtl.enable&&(rtlenable=!0),$(".wpte-trip-feat-img-gallery").owlCarousel({nav:!0,navigationText:["&lsaquo;","&rsaquo;"],items:1,autoplay:!0,slideSpeed:300,paginationSpeed:400,center:!0,loop:!0,rtl:rtlenable,dots:!1})});

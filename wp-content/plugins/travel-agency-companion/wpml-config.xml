@@ -1,0 +1,370 @@
+<wpml-config>
+  <admin-texts>
+    <key name="theme_mods_travel-agency-pro">
+      <key name="0"/>
+      <key name="nav_menu_locations">
+        <key name="primary"/>
+        <key name="footer"/>
+        <key name="language"/>
+      </key>
+      <key name="custom_css_post_id"/>
+      <key name="sidebar"/>
+      <key name="social_links">
+        <key name="0">
+          <key name="font"/>
+          <key name="link"/>
+        </key>
+        <key name="1">
+          <key name="font"/>
+          <key name="link"/>
+        </key>
+        <key name="2">
+          <key name="font"/>
+          <key name="link"/>
+        </key>
+        <key name="3">
+          <key name="font"/>
+          <key name="link"/>
+        </key>
+        <key name="4">
+          <key name="font"/>
+          <key name="link"/>
+        </key>
+        <key name="5">
+          <key name="font"/>
+          <key name="link"/>
+        </key>
+        <key name="6">
+          <key name="font"/>
+          <key name="link"/>
+        </key>
+        <key name="7">
+          <key name="font"/>
+          <key name="link"/>
+        </key>
+      </key>
+      <key name="slider_custom"/>
+      <key name="clients_logo">
+        <key name="0">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+        <key name="1">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+        <key name="2">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+        <key name="3">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+        <key name="4">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+        <key name="5">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+      </key>
+      <key name="about_clients">
+        <key name="0">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+        <key name="1">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+        <key name="2">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+        <key name="3">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+        <key name="4">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+        <key name="5">
+          <key name="image"/>
+          <key name="link"/>
+        </key>
+      </key>
+      <key name="whyus_about">
+        <key name="0">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+        <key name="1">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+        <key name="2">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+        <key name="3">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+        <key name="4">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+        <key name="5">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+      </key>
+      <key name="services_about">
+        <key name="0">
+          <key name="title"/>
+          <key name="content"/>
+          <key name="image"/>
+        </key>
+        <key name="1">
+          <key name="title"/>
+          <key name="content"/>
+          <key name="image"/>
+        </key>
+        <key name="2">
+          <key name="title"/>
+          <key name="content"/>
+          <key name="image"/>
+        </key>
+        <key name="3">
+          <key name="title"/>
+          <key name="content"/>
+          <key name="image"/>
+        </key>
+        <key name="4">
+          <key name="title"/>
+          <key name="content"/>
+          <key name="image"/>
+        </key>
+        <key name="5">
+          <key name="title"/>
+          <key name="content"/>
+          <key name="image"/>
+        </key>
+        <key name="6">
+          <key name="title"/>
+          <key name="content"/>
+          <key name="image"/>
+        </key>
+        <key name="7">
+          <key name="title"/>
+          <key name="content"/>
+          <key name="image"/>
+        </key>
+      </key>
+      <key name="about_counter">
+        <key name="0">
+          <key name="icon"/>
+          <key name="title"/>
+          <key name="number"/>
+        </key>
+        <key name="1">
+          <key name="icon"/>
+          <key name="title"/>
+          <key name="number"/>
+        </key>
+        <key name="2">
+          <key name="icon"/>
+          <key name="title"/>
+          <key name="number"/>
+        </key>
+        <key name="3">
+          <key name="icon"/>
+          <key name="title"/>
+          <key name="number"/>
+        </key>
+      </key>
+      <key name="sidebars_widgets">
+        <key name="time"/>
+        <key name="data">
+          <key name="wp_inactive_widgets"/>
+          <key name="wte-sidebar-id">
+            <key name="1"/>
+          </key>
+          <key name="sidebar">
+            <key name="0"/>
+            <key name="1"/>
+            <key name="2"/>
+            <key name="3"/>
+            <key name="4"/>
+            <key name="5"/>
+          </key>
+          <key name="footer-one">
+            <key name="1"/>
+          </key>
+          <key name="footer-two"/>
+          <key name="footer-three"/>
+          <key name="footer-four"/>
+        </key>
+      </key>
+      <key name="activities">
+        <key name="0">
+          <key name="thumbnail"/>
+          <key name="name"/>
+          <key name="desc"/>
+          <key name="url"/>
+        </key>
+        <key name="1">
+          <key name="thumbnail"/>
+          <key name="name"/>
+          <key name="desc"/>
+          <key name="url"/>
+        </key>
+        <key name="2">
+          <key name="thumbnail"/>
+          <key name="name"/>
+          <key name="desc"/>
+          <key name="url"/>
+        </key>
+        <key name="3">
+          <key name="thumbnail"/>
+          <key name="name"/>
+          <key name="desc"/>
+          <key name="url"/>
+        </key>
+        <key name="4">
+          <key name="thumbnail"/>
+          <key name="name"/>
+          <key name="desc"/>
+          <key name="url"/>
+        </key>
+        <key name="5">
+          <key name="thumbnail"/>
+          <key name="name"/>
+          <key name="desc"/>
+          <key name="url"/>
+        </key>
+        <key name="6">
+          <key name="thumbnail"/>
+          <key name="name"/>
+          <key name="desc"/>
+          <key name="url"/>
+        </key>
+        <key name="7">
+          <key name="thumbnail"/>
+          <key name="name"/>
+          <key name="desc"/>
+          <key name="url"/>
+        </key>
+      </key>
+      <key name="why_us">
+        <key name="0">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+        <key name="1">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+        <key name="2">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+        <key name="3">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+        <key name="4">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+        <key name="5">
+          <key name="whyus-icon"/>
+          <key name="title"/>
+          <key name="description"/>
+          <key name="url"/>
+        </key>
+      </key>
+      <key name="counter">
+        <key name="0">
+          <key name="icon"/>
+          <key name="title"/>
+          <key name="number"/>
+        </key>
+        <key name="1">
+          <key name="icon"/>
+          <key name="title"/>
+          <key name="number"/>
+        </key>
+        <key name="2">
+          <key name="icon"/>
+          <key name="title"/>
+          <key name="number"/>
+        </key>
+        <key name="3">
+          <key name="icon"/>
+          <key name="title"/>
+          <key name="number"/>
+        </key>
+      </key>
+    </key>
+    <key name="widget_travel_agency_featured_widget">
+      <key name="2">
+        <key name="readmore"/>
+        <key name="post_list"/>
+        <key name="show_thumbnail"/>
+        <key name="target"/>
+        <key name="title"/>
+      </key>
+      <key name="_multiwidget"/>
+    </key>
+    <key name="widget_raratheme_popular_post">
+      <key name="2">
+        <key name="title"/>
+        <key name="num_post"/>
+        <key name="show_thumbnail"/>
+        <key name="show_postdate"/>
+        <key name="based_on"/>
+        <key name="comment_num"/>
+        <key name="view_count"/>
+        <key name="target"/>
+        <key name="wpml_language"/>
+      </key>
+      <key name="_multiwidget"/>
+    </key>
+    <key name="widget_raratheme_recent_post">
+      <key name="2">
+        <key name="title"/>
+        <key name="num_post"/>
+        <key name="show_thumbnail"/>
+        <key name="show_postdate"/>
+        <key name="target"/>
+      </key>
+      <key name="_multiwidget"/>
+    </key>
+  </admin-texts>
+</wpml-config>
